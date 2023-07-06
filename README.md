@@ -3,4 +3,8 @@ M.Tech. Project
 
 Thermodynamically Compatible Finite Volume Scheme.
 
-We consider finite-volume methods. These are popular in astrophysics because they are based on the integral form of the conservative equations and properly conserve mass, momentum, and energy. We will consider an Eulerian grid: the grid is fixed and the fluid moves through it. We will be explicit in time: the new solution depends only on the previous state.
+- The main aim is to mimic the SHTC (symmetric hyperbolic thermodynamic compatible) framework also on the discrete level.
+- Directly discretizing the entropy inequality instead of the total energy conservation law. 
+- The total energy conservation is obtained via an appropriate linear combination as a consequence of the thermodynamically compatible discretization of all other equations.
+- Firstly, the system is studied in 1D in gravity-free space with zero viscosity and zero additional fluxes.
+- Finally, various additional terms like dissipative terms and correction terms are added to the system.
